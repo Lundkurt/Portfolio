@@ -1,5 +1,5 @@
 body {
-    background: url(../images/Vector_2677.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url('../images/Vector_2677.jpg') no-repeat center center;
     background-size: cover;
     font-family: 'verdana';
     margin: 0;
@@ -10,7 +10,7 @@ main {
     margin: auto;
     min-height: 1000px;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: 'montserrat';
     color: white;
     margin-left: 10px;
@@ -21,6 +21,9 @@ h1 {
 }
 h2 {
     font-size: 1rem;
+}
+p {
+    color: white;
 }
 .logo {
     text-decoration: none;
@@ -157,6 +160,43 @@ nav a {
     display: block;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-wrapper {
+    border-top: solid 1px aqua;
+    border-bottom: solid 1px aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.project-image {
+    min-width: 200px;
+    width: 80%;
+    max-height: 300px;
+}
+
+.project-wrapper li {
+    color: white;
+}
+
+.width {
+    width: 30%;
+
+}
+
+.changelog {
+    width: 30%;
+}
+
 
 
 
@@ -185,5 +225,11 @@ nav a {
     }
     h2 {
         font-size: 1.2rem;
+    }
+    .project-wrapper {
+        flex-direction: row;
+    }
+    .project-image {
+        width: 100%;
     }
 }
