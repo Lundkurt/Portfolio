@@ -16,11 +16,11 @@ h1, h2, h3 {
     margin-left: 10px;
 }
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 130px;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 p {
     color: white;
@@ -29,7 +29,7 @@ p {
     text-decoration: none;
     color: #fff;
     font-family: 'pristina';
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     
 }
@@ -49,7 +49,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 75px;
+    height: 60px;
     margin: auto;
     border-bottom: solid 2px white;
 }
@@ -66,9 +66,9 @@ nav {
     position: fixed;
     z-index: 2;
     right: 7%;
-    top: 20px;
+    top: 15px;
     border-radius: 10px 0px 10px 10px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 nav ul {
     padding-left: 10px;
@@ -170,14 +170,16 @@ nav a {
     border-bottom: solid 1px aqua;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 3%;
     padding: 10px;
     background: rgba(0, 0, 0, 0.4);
 
 }
 
+.project-wrapper a {
+    color: white;
+    font-size: 1.2rem;
+}
 .project-image {
     min-width: 200px;
     width: 80%;
@@ -189,12 +191,12 @@ nav a {
 }
 
 .width {
-    width: 30%;
+    width: 100%;
 
 }
 
 .changelog {
-    width: 30%;
+    width: 100%;
 }
 
 
@@ -208,6 +210,9 @@ nav a {
         right: 10%;
         padding-top: 0px;
         background: none;
+    }
+    .logo {
+        font-size: 2rem;
     }
     nav ul {
         display: flex;
@@ -232,4 +237,5 @@ nav a {
     .project-image {
         width: 100%;
     }
+    
 }
