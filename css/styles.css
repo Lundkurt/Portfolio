@@ -7,7 +7,7 @@ body {
 }
 main {
     width: 80%;
-    margin: auto;
+    margin: 10px auto;
     min-height: 1000px;
 }
 h1, h2, h3 {
@@ -33,7 +33,7 @@ p {
     margin-top: 10px;
     
 }
-nav a:hover {
+nav a:hover, .project-wrapper a:hover {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
